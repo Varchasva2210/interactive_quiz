@@ -1,0 +1,43 @@
+<!--
+Project Title: Interactive Quiz Application
+Name: Your Name
+Date: 2026
+Description: A simple quiz app using HTML, CSS, and JavaScript
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Interactive Quiz</h1>
+    <p>Test your knowledge with this simple quiz!</p>
+</header>
+
+<main>
+    <section id="quiz-container">
+        <h2 id="question">Question text</h2>
+
+        <div id="options">
+            <!-- Options will be inserted dynamically -->
+        </div>
+
+        <button id="next-btn">Next</button>
+    </section>
+
+    <section id="result-container" class="hidden">
+        <h2>Your Result</h2>
+        <p id="score"></p>
+        <p id="message"></p>
+        <button id="restart-btn">Restart Quiz</button>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
